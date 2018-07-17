@@ -1,0 +1,154 @@
+/**
+    CONFIG BUTTONS
+ */
+
+.btn {
+    padding: 8px 16px;
+    font-size: 0.8em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-blue {
+    background-color: #0E96E5 !important;
+    color: #FFF !important;
+}
+
+.btn-blue:hover {
+    background-color: #096397 !important;
+}
+
+/**
+    DISPLAY MESSAGE ERROS
+ */
+
+.error {
+    padding: 8px 6px;
+    margin-bottom: 10px;
+    background-color: #FF524E;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #C63D3A;
+}
+
+.error p {
+    color: #FFFFFF !important;
+    text-align: center;
+}
+
+/**
+    BOX LOGIN
+ */
+
+.box-login {
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px #CCC;
+}
+
+/**
+    BOX LOGIN-HEADER
+ */
+
+.box-login-header img {
+    max-width: 160px;
+    margin-bottom: 10px;
+}
+
+.box-login-header h1 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/**
+    BOX LOGIN-CONTENT
+ */
+
+.box-login-content {
+    margin: 20px 0;
+}
+
+.box-login-content p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.box-login-content input {
+    width: 100%;
+    margin: 6px 0;
+    padding: 8px;
+    font-size: 0.9em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #E6E6E6;
+}
+
+.box-login-content a {
+    font-size: 0.9em;
+    color: #0E96E5;
+}
+
+.box-login-content a:hover {
+    text-decoration: underline;
+}
+
+/**
+    BOX LOGIN-CONTENT-FORM-ACTIONS
+ */
+
+.box-login-content-form-actions {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-login-content-form-actions p {
+    flex-basis: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/**
+    BOX LOGIN-CONTENT-WELCOME
+    DIV ENTER PASSWORD
+ */
+
+.box-login-content-welcome {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box-login-content-welcome img {
+    margin-bottom: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.box-login-content-welcome > p {
+    text-align: center;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+/**
+    BOX LOGIN-FOOTER
+ */
+
+.box-login-footer p {
+    font-size: 0.7em;
+    color: #999;
+    text-align: center;
+}

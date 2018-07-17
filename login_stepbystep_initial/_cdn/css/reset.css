@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+.container-full {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F1;
+}
+
+.content-full {
+    max-width: 1000px;
+    width: 96%;
+    display: flex;
+}
